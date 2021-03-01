@@ -9,13 +9,15 @@ import {MatButtonModule} from '@angular/material/button';
 import { BottomComponent } from './bottom/bottom.component';
 import { AboveHeaderComponent } from './above-header/above-header.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
     BottomComponent,
-    AboveHeaderComponent
+    AboveHeaderComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

@@ -12,4 +12,8 @@ export class ButtonComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onClick(): void {
+    alert("Hello, World!");
+  }
+
 }
