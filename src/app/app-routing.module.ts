@@ -4,7 +4,7 @@ import { AdminComponent } from './admin/admin.component';
 import { ButtonComponent } from './button/button.component';
 
 const routes: Routes = [
-  {path:'', component: ButtonComponent},
+  {path: '', component: ButtonComponent},
   {path: 'admin', component: AdminComponent}
 ];
 

@@ -10,6 +10,7 @@ import { BottomComponent } from './bottom/bottom.component';
 import { AboveHeaderComponent } from './above-header/above-header.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { AdminComponent } from './admin/admin.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AdminComponent } from './admin/admin.component';
     AppRoutingModule,
     NoopAnimationsModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

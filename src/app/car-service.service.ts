@@ -7,11 +7,9 @@ import {HttpClient} from '@angular/common/http';
 export class CarServiceService {
   baseUrl: string;
   constructor(private httpClient: HttpClient){
-    this.baseUrl="https://localhost:8080/cars/3";
+    this.baseUrl = '/assets/data/car.json';
   }
-
-  getCar(){
-    this.httpClient.get(this.baseUrl);
+  getCar() {
+    return this.httpClient.get(this.baseUrl);
   }
-  
 }
